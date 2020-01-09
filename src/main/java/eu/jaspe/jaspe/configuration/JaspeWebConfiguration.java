@@ -2,8 +2,8 @@ package eu.jaspe.jaspe.configuration;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import eu.jaspe.jaspe.interceptor.JaspeDisabledHandlerInterceptor;
-import eu.jaspe.jaspe.view.JaspeJsonView;
 import eu.jaspe.jaspe.messageconverter.JaspeJsonMessageConverter;
+import eu.jaspe.jaspe.view.JaspeJsonView;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
